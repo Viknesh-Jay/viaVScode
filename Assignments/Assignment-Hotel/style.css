@@ -1,0 +1,133 @@
+@font-face {
+  font-family: ChildWitch;
+  src: url('./resources/child-witch-font/ChildWitch-z8ABL.ttf');
+}
+@font-face {
+  font-family: SchnebelSans;
+  src: url('./resources/schnebel-sans-me-maisfontes.98a4/schnebel-sans-me.ttf');
+}
+
+* {
+  margin: 0;
+}
+
+header > h3#navMenu {
+  display:inline; 
+  float:right; 
+  position: relative;
+  z-index: 2;
+  margin: 18.72px 0;
+  padding-top: 6px;
+  padding-right: 10vw;
+  color:#ff01bb6b;
+
+
+}
+
+.pinkPineRibbon {
+  background-image:  url('./resources/Background2-b-pink.jpg');
+  filter: brightness(90%);
+}
+
+header > div.pinkPineRibbon {
+  height: 65px;
+}
+
+
+header h1.companyLogo > img {
+  height: 50px;
+  margin-top: 17px;
+  margin-left: 5vw;
+}
+
+
+.companyFontBackGround {
+  padding: 0;
+  border-radius: 10px;
+  background-image:   linear-gradient(180deg, rgba(250, 250, 250, 0.218), rgba(250, 250, 250, 0.218) 80%);               /*rgba(250, 250, 250, 0.136);*/
+  background-clip: padding-box;
+  box-shadow: 0 0 20px 2px rgba(250, 250, 250, 0.356);
+  letter-spacing: 0.27em;
+}
+
+.companyFont{
+  font-family: ChildWitch;
+  color:#fbf0d1c9;
+}
+
+.logoGreen
+{
+  background:linear-gradient(150deg, hsl(171, 97%, 46%), hsla(122, 49%, 49%, 0.802) 50%) ;
+  background-clip: text;
+  -webkit-background-clip: text ;
+  -moz-background-clip: text;
+  text-fill-color: tranparent;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+.companyLogo.pink{
+  color:#fb00b8a8; 
+}
+
+sup.companyLogo.trademarkSymbol {
+  font-weight: normal;
+  color:#c34902;
+}
+
+
+
+header > div#headerBody {
+   position: relative;
+   z-index: -2;
+   height: 40vw;
+   background-color: rgb(245 , 245, 245);
+}
+
+header > div#headerBody > img {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  margin: 0px 6vw;
+  border-radius: 0 50px;
+  width: 88vw;
+}
+
+header > div#headerBody > div.glass {
+  position: absolute;
+  z-index: 1;
+  top: 2.3vw;
+  right: 7vw;
+  background-image: linear-gradient(30deg,rgba(7, 7, 7, 0.721),  hsla(128, 35%, 16%, 0.456) 60%), 
+  url(./resources/glassbackground-transparent.png) ;
+  background-clip: padding-box, padding-box;
+  background-size: contain,contain ;
+  background-repeat: no-repeat,repeat-x;
+  border-radius: 0 25px;
+  border-width: 1px 1px 0.1em 0.3em;
+  padding: 0.35em;
+  width: 38.5%;
+  height: fit-content;
+  border-style: solid; 
+  border-top-color: #000;
+  border-right-color: #000;
+  border-left-color: rgba(189, 189, 189, 0.243);
+  border-bottom-color:rgba(189, 189, 189, 0.157);
+  /* font-size: 0.8; */
+  letter-spacing: 0.1em;
+}
+
+header > div#headerBody > div.glass > blockquote {
+  font-size: 0.8em;
+  color:#fae2ddb1;
+}
+header > div#headerBody > div.glass > pre {
+  padding-top: 0.8em;
+}
+header > div#headerBody > div.glass cite{
+  font-size: 0.85em;
+}
+
+
+
+
+
