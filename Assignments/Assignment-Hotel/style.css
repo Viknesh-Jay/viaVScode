@@ -19,10 +19,23 @@ header > h3#navMenu {
   margin: 18.72px 0;
   padding-top: 6px;
   padding-right: 10vw;
-  color:#ff01bb6b;
-
-
+  color:#ff01bb74;
 }
+
+
+header > h3#navMenu > a:link,
+header > h3#navMenu > a:visited,
+header > h3#navMenu > a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+header > h3#navMenu > a:hover{
+  color: #ae4102;
+}
+
+
+
 
 .pinkPineRibbon {
   background-image:  url('./resources/Background2-b-pink.jpg');
@@ -99,8 +112,8 @@ header > div#headerBody > div.glass {
   right: 7vw;
   background-image: linear-gradient(30deg,rgba(7, 7, 7, 0.721),  hsla(128, 35%, 16%, 0.456) 60%), 
   url(./resources/glassbackground-transparent.png) ;
-  background-clip: padding-box, padding-box;
-  background-size: contain,contain ;
+  background-clip: border-box, border-box;
+  background-size: contain, cover ;
   background-repeat: no-repeat,repeat-x;
   border-radius: 0 25px;
   border-width: 1px 1px 0.1em 0.3em;
@@ -114,7 +127,11 @@ header > div#headerBody > div.glass {
   border-bottom-color:rgba(189, 189, 189, 0.157);
   /* font-size: 0.8; */
   letter-spacing: 0.1em;
+  backdrop-filter: blur(1px);
 }
+
+
+
 
 header > div#headerBody > div.glass > blockquote {
   font-size: 0.8em;
